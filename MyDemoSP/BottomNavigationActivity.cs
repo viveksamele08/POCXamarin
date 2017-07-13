@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "BottomNavigationActivity")]
+    [Activity(Label = "BottomNavigationActivity", Theme = "@style/Theme.AppCompat.Light")]
     public class BottomNavigationActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

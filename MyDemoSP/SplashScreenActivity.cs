@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "SplashScreenActivity", Theme = "@style/Theme.AppCompat.Light", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "SplashScreenActivity", Theme = "@style/FullscreenTheme", MainLauncher = true, Icon = "@drawable/icon")]
     public class SplashScreenActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

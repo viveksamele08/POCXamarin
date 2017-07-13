@@ -23,12 +23,9 @@ namespace MyDemoSP.Service
         {
             Log.Debug(TAG, "From: " + message.From);
             Log.Debug(TAG, "Notification Message Body: " + message.GetNotification().Body);
-
             SendNotification(message.GetNotification().Body);
 
         }
-
-
         void SendNotification(string messageBody)
         {
             var intent = new Intent(this, typeof(MainActivity));

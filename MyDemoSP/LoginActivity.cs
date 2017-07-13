@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "LoginActivity", Theme = "@style/Theme.AppCompat.Light", Icon = "@drawable/icon")]
+    [Activity(Label = "LoginActivity", Theme = "@style/FullscreenTheme", Icon = "@drawable/icon")]
     public class LoginActivity : AppCompatActivity
     {
         private Button _loginButton;

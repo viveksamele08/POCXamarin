@@ -2,6 +2,10 @@
 using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Gms.Common;
+using System;
+using Java.IO;
+using Firebase.Messaging;
 
 namespace MyDemoSP
 {
@@ -14,6 +18,29 @@ namespace MyDemoSP
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.activity_main);
+
+        }
+
+        public bool IsPlayServicesAvailable()
+        {
+            int resultCode = GoogleApiAvailability.Instance.IsGooglePlayServicesAvailable(this);
+            if (resultCode != ConnectionResult.Success)
+            {
+                if (GoogleApiAvailability.Instance.IsUserResolvableError(resultCode))
+                    System.Console.WriteLine(GoogleApiAvailability.Instance.GetErrorString(resultCode));
+                else
+                {
+                    System.Console.WriteLine("This device is not supported");
+
+                    Finish();
+                }
+                return false;
+            }
+            else
+            {
+                System.Console.WriteLine("Google Play Services is available.");
+                return true;
+            }
         }
     }
 }

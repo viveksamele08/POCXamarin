@@ -2,18 +2,11 @@
 using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
-<<<<<<< HEAD
 using Android.Gms.Common;
-using System;
-using Java.IO;
-using Firebase.Messaging;
-=======
 using Toolbar = Android.Support.V7.Widget.Toolbar;
 using Android.Support.V4.Widget;
 using Android.Support.Design.Widget;
 using Android.Views;
-using System;
->>>>>>> 06149a2e5d068ec0f69778bcc83d1411afc1d43f
 
 namespace MyDemoSP
 {
@@ -32,7 +25,7 @@ namespace MyDemoSP
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.activity_main);
-<<<<<<< HEAD
+
 
         }
 
@@ -56,7 +49,7 @@ namespace MyDemoSP
                 System.Console.WriteLine("Google Play Services is available.");
                 return true;
             }
-=======
+ 
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             drawer = FindViewById <DrawerLayout>(Resource.Id.drawer_layout);
             home = FindViewById <TextView>(Resource.Id.home);
@@ -84,23 +77,24 @@ namespace MyDemoSP
 
         public bool OnNavigationItemSelected(IMenuItem item)
         {
-            switch (item.getItemId())
+            switch (item.ItemId)
             {
-                case R.id.navigation_home:
-                    fab.setVisibility(View.VISIBLE);
-                    getSupportFragmentManager().beginTransaction().add(R.id.content, new HomeFragment(), "Home").commit();
+                case Resource.Id.navigation_home:
+                    fab.SetVisibility(ViewStates.Visible);
+                    SupportFragmentManager.BeginTransaction().Add(Resource.Id.content, new HomeFragment(), "Home").Commit();
                     return true;
-                case R.id.navigation_dashboard:
-                    fab.setVisibility(View.GONE);
-                    getSupportFragmentManager().beginTransaction().replace(R.id.content, new DashboardFragment(), "Dash").commit();
+                case Resource.Id.navigation_dashboard:
+                    fab.SetVisibility(ViewStates.Gone);
+                    SupportFragmentManager.BeginTransaction().Add(Resource.Id.content, new HomeFragment(), "Dash").Commit();
                     return true;
-                case R.id.navigation_notifications:
-                    fab.setVisibility(View.GONE);
-                    getSupportFragmentManager().beginTransaction().replace(R.id.content, new NotificatrionsFragment(), "Notification").commit();
+                case Resource.Id.navigation_notifications:
+                    fab.SetVisibility(ViewStates.Gone);
+                    SupportFragmentManager.BeginTransaction().Add(Resource.Id.content, new HomeFragment(), "Notification").Commit();
+
                     return true;
             }
             return false;
->>>>>>> 06149a2e5d068ec0f69778bcc83d1411afc1d43f
+ 
         }
     }
 }

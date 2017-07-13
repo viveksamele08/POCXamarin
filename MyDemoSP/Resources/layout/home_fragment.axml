@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#DEE5EB"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequent Apps"
+                android:paddingLeft="6dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cca"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="CCA"
+                    android:id="@+id/ccc" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/acad_calender"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="ACAD\n CALENDAR"
+                    android:id="@+id/acad_calendar" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/exam_timetable"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="EXAM\n TIMETABLE"
+                    android:id="@+id/exam_timetable" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/library"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="LIBRARY"
+                    android:id="@+id/library" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/campus_map"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="LIVE CAM"
+                    android:id="@+id/live_cam" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/feedback"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="FEEDBACK"
+                    android:id="@+id/feedback" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/wassup"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="WASSUP"
+                    android:id="@+id/wassup" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/exam_result"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="EXAM\n RESULTS"
+                    android:id="@+id/exam_results" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/timetable"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="TIME TABLE"
+                    android:id="@+id/time_table" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/staff_directory"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:paddingBottom="10dp"
+                    android:text="STAFF\n DIRECTORY"
+                    android:id="@+id/staff_directory" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/staff_calender"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="STAFF\n CALENDAR"
+                    android:id="@+id/staff_calendar" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/staff_timetable"
+                    android:paddingTop="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:drawablePadding="6dp"
+                    android:text="STAFF\n TIMETABLE"
+                    android:id="@+id/staff_timetable" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

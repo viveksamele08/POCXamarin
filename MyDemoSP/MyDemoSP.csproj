@@ -140,16 +140,15 @@
     <Compile Include="BottomNavigationActivity.cs" />
     <Compile Include="CCCWebView.cs" />
     <Compile Include="DashboardFragment.cs" />
+    <Compile Include="HomeFragment.cs" />
     <Compile Include="LoginActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="NotificatrionsFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="Service\MyFirebaseIIDService.cs" />
     <Compile Include="Service\MyFirebaseMessagingService.cs" />
-=======
     <Compile Include="SplashScreenActivity.cs" />
->>>>>>> 06149a2e5d068ec0f69778bcc83d1411afc1d43f
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

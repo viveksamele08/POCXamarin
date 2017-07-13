@@ -13,14 +13,27 @@ using Android.Support.V7.App;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "LoginActivity", Theme = "@style/Theme.AppCompat.Light", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "LoginActivity", Theme = "@style/Theme.AppCompat.Light", Icon = "@drawable/icon")]
     public class LoginActivity : AppCompatActivity
     {
+        private Button _loginButton;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_login);
-            // Create your application here
+            _loginButton = FindViewById<Button>(Resource.Id.email_sign_in_button);
+            _loginButton.Click += LoginBtn_OnClick;
         }
+        private void LoginBtn_OnClick(object sender, EventArgs e)
+        {
+            EditText userName = FindViewById<EditText>(Resource.Id.email);
+            EditText passWord = FindViewById<EditText>(Resource.Id.password);
+            if ((("Demo").Equals(userName.Text.Trim())) && (("Demo").Equals(passWord.Text.Trim())))
+            {
+                StartActivity(new Intent(Application.Context, typeof(MainActivity)));
+                Finish();
+            }
+        }
+       
     }
 }

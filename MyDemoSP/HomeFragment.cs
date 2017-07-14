@@ -35,21 +35,21 @@ namespace MyDemoSP
                 case Resource.Id.exam_results:
                     var intent = new Intent(this.Activity, typeof(CCCWebView));
                     StartActivity(intent);
-                break;
+                    break;
                 case Resource.Id.library:
                     Uri uri = Uri.Parse("https://library.sp.edu.sg/");
-                    var intent1 = new Intent(Intent.ActionView,uri);
+                    var intent1 = new Intent(Intent.ActionView, uri);
                     StartActivity(intent1);
                     break;
-           }
+
+                case Resource.Id.live_cam:
+                    Intent intentCam = new Intent(this.Activity, typeof(CCCWebView));
+                    intentCam.PutExtra("key", "livecam");
+                    StartActivity(intentCam);
+                    break;
+            }
         }
 
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
-        }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {

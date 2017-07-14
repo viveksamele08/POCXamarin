@@ -2564,8 +2564,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a00a2
 			public const int acc = 2131361954;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int action0 = 2131361976;
+			// aapt resource value: 0x7f0a00ba
+			public const int action0 = 2131361978;
 			
 			// aapt resource value: 0x7f0a0072
 			public const int action_bar = 2131361906;
@@ -2588,17 +2588,17 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a004f
 			public const int action_bar_title = 2131361871;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int action_container = 2131361973;
+			// aapt resource value: 0x7f0a00b7
+			public const int action_container = 2131361975;
 			
 			// aapt resource value: 0x7f0a0073
 			public const int action_context_bar = 2131361907;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int action_divider = 2131361980;
+			// aapt resource value: 0x7f0a00be
+			public const int action_divider = 2131361982;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int action_image = 2131361974;
+			// aapt resource value: 0x7f0a00b8
+			public const int action_image = 2131361976;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -2615,14 +2615,14 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0051
 			public const int action_mode_close_button = 2131361873;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int action_settings = 2131362004;
+			// aapt resource value: 0x7f0a00d6
+			public const int action_settings = 2131362006;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int action_text = 2131361975;
+			// aapt resource value: 0x7f0a00b9
+			public const int action_text = 2131361977;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int actions = 2131361989;
+			// aapt resource value: 0x7f0a00c7
+			public const int actions = 2131361991;
 			
 			// aapt resource value: 0x7f0a0052
 			public const int activity_chooser_view_content = 2131361874;
@@ -2663,8 +2663,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0059
 			public const int buttonPanel = 2131361881;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int cancel_action = 2131361977;
+			// aapt resource value: 0x7f0a00bb
+			public const int cancel_action = 2131361979;
 			
 			// aapt resource value: 0x7f0a00a6
 			public const int ccc = 2131361958;
@@ -2684,14 +2684,17 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0069
 			public const int checkbox = 2131361897;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int chronometer = 2131361985;
+			// aapt resource value: 0x7f0a00c3
+			public const int chronometer = 2131361987;
 			
 			// aapt resource value: 0x7f0a0048
 			public const int clip_horizontal = 2131361864;
 			
 			// aapt resource value: 0x7f0a0049
 			public const int clip_vertical = 2131361865;
+			
+			// aapt resource value: 0x7f0a00b2
+			public const int close = 2131361970;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int clubs = 2131361955;
@@ -2750,8 +2753,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a008c
 			public const int email = 2131361932;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int email_login_form = 2131361931;
+			// aapt resource value: 0x7f0a008a
+			public const int email_login_form = 2131361930;
 			
 			// aapt resource value: 0x7f0a008f
 			public const int email_sign_in_button = 2131361935;
@@ -2759,8 +2762,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0031
 			public const int end = 2131361841;
 			
-			// aapt resource value: 0x7f0a00cb
-			public const int end_padder = 2131361995;
+			// aapt resource value: 0x7f0a00cd
+			public const int end_padder = 2131361997;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int enterAlways = 2131361850;
@@ -2813,8 +2816,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0057
 			public const int icon = 2131361879;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int icon_group = 2131361990;
+			// aapt resource value: 0x7f0a00c8
+			public const int icon_group = 2131361992;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int icon_only = 2131361818;
@@ -2825,11 +2828,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0054
 			public const int image = 2131361876;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int imageView2 = 2131361970;
-			
-			// aapt resource value: 0x7f0a00c2
-			public const int info = 2131361986;
+			// aapt resource value: 0x7f0a00c4
+			public const int info = 2131361988;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
@@ -2846,11 +2846,11 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a001f
 			public const int light = 2131361823;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int line1 = 2131361991;
-			
 			// aapt resource value: 0x7f0a00c9
-			public const int line3 = 2131361993;
+			public const int line1 = 2131361993;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int line3 = 2131361995;
 			
 			// aapt resource value: 0x7f0a0020
 			public const int listMode = 2131361824;
@@ -2864,17 +2864,17 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a008e
 			public const int login = 2131361934;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int login_form = 2131361930;
-			
 			// aapt resource value: 0x7f0a0089
-			public const int login_progress = 2131361929;
+			public const int login_form = 2131361929;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int masked = 2131361997;
+			// aapt resource value: 0x7f0a008b
+			public const int login_progress = 2131361931;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int media_actions = 2131361979;
+			// aapt resource value: 0x7f0a00cf
+			public const int masked = 2131361999;
+			
+			// aapt resource value: 0x7f0a00bd
+			public const int media_actions = 2131361981;
 			
 			// aapt resource value: 0x7f0a0083
 			public const int message = 2131361923;
@@ -2888,23 +2888,23 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a002a
 			public const int multiply = 2131361834;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int nav_camera = 2131361998;
-			
-			// aapt resource value: 0x7f0a00cf
-			public const int nav_gallery = 2131361999;
+			// aapt resource value: 0x7f0a00d0
+			public const int nav_camera = 2131362000;
 			
 			// aapt resource value: 0x7f0a00d1
-			public const int nav_manage = 2131362001;
+			public const int nav_gallery = 2131362001;
 			
 			// aapt resource value: 0x7f0a00d3
-			public const int nav_send = 2131362003;
+			public const int nav_manage = 2131362003;
+			
+			// aapt resource value: 0x7f0a00d5
+			public const int nav_send = 2131362005;
+			
+			// aapt resource value: 0x7f0a00d4
+			public const int nav_share = 2131362004;
 			
 			// aapt resource value: 0x7f0a00d2
-			public const int nav_share = 2131362002;
-			
-			// aapt resource value: 0x7f0a00d0
-			public const int nav_slideshow = 2131362000;
+			public const int nav_slideshow = 2131362002;
 			
 			// aapt resource value: 0x7f0a0091
 			public const int nav_view = 2131361937;
@@ -2912,17 +2912,17 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0084
 			public const int navigation = 2131361924;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int navigation_dashboard = 2131362007;
+			// aapt resource value: 0x7f0a00d9
+			public const int navigation_dashboard = 2131362009;
 			
 			// aapt resource value: 0x7f0a0099
 			public const int navigation_header_container = 2131361945;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int navigation_home = 2131362005;
+			// aapt resource value: 0x7f0a00d7
+			public const int navigation_home = 2131362007;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int navigation_notifications = 2131362006;
+			// aapt resource value: 0x7f0a00d8
+			public const int navigation_notifications = 2131362008;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int never = 2131361846;
@@ -2933,14 +2933,14 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0021
 			public const int normal = 2131361825;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int notification_background = 2131361988;
+			// aapt resource value: 0x7f0a00c6
+			public const int notification_background = 2131361990;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int notification_main_column = 2131361982;
+			// aapt resource value: 0x7f0a00c0
+			public const int notification_main_column = 2131361984;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int notification_main_column_container = 2131361981;
+			// aapt resource value: 0x7f0a00bf
+			public const int notification_main_column_container = 2131361983;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int packed = 2131361810;
@@ -2981,11 +2981,11 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0044
 			public const int right = 2131361860;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int right_icon = 2131361987;
+			// aapt resource value: 0x7f0a00c5
+			public const int right_icon = 2131361989;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int right_side = 2131361983;
+			// aapt resource value: 0x7f0a00c1
+			public const int right_side = 2131361985;
 			
 			// aapt resource value: 0x7f0a002b
 			public const int screen = 2131361835;
@@ -3038,6 +3038,9 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0080
 			public const int select_dialog_listview = 2131361920;
 			
+			// aapt resource value: 0x7f0a00b5
+			public const int settings = 2131361973;
+			
 			// aapt resource value: 0x7f0a006a
 			public const int shortcut = 2131361898;
 			
@@ -3049,6 +3052,9 @@ namespace MyDemoSP
 			
 			// aapt resource value: 0x7f0a0027
 			public const int showTitle = 2131361831;
+			
+			// aapt resource value: 0x7f0a00b6
+			public const int sign_out = 2131361974;
 			
 			// aapt resource value: 0x7f0a0093
 			public const int smallLabel = 2131361939;
@@ -3098,8 +3104,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0045
 			public const int start = 2131361861;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int status_bar_latest_event_content = 2131361978;
+			// aapt resource value: 0x7f0a00bc
+			public const int status_bar_latest_event_content = 2131361980;
 			
 			// aapt resource value: 0x7f0a006c
 			public const int submenuarrow = 2131361900;
@@ -3110,11 +3116,11 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a0022
 			public const int tabMode = 2131361826;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int text = 2131361994;
+			// aapt resource value: 0x7f0a00cc
+			public const int text = 2131361996;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int text2 = 2131361992;
+			// aapt resource value: 0x7f0a00ca
+			public const int text2 = 2131361994;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int textSpacerNoButtons = 2131361888;
@@ -3137,8 +3143,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a000d
 			public const int textinput_error = 2131361805;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int time = 2131361984;
+			// aapt resource value: 0x7f0a00c2
+			public const int time = 2131361986;
 			
 			// aapt resource value: 0x7f0a00ae
 			public const int time_table = 2131361966;
@@ -3182,8 +3188,8 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f0a000e
 			public const int view_offset_helper = 2131361806;
 			
-			// aapt resource value: 0x7f0a00cc
-			public const int visible = 2131361996;
+			// aapt resource value: 0x7f0a00ce
+			public const int visible = 2131361998;
 			
 			// aapt resource value: 0x7f0a00ac
 			public const int wassup = 2131361964;
@@ -3675,6 +3681,12 @@ namespace MyDemoSP
 			// aapt resource value: 0x7f070010
 			public const int common_signin_button_text_long = 2131165200;
 			
+			// aapt resource value: 0x7f07004d
+			public const int dummy_button = 2131165261;
+			
+			// aapt resource value: 0x7f07004e
+			public const int dummy_content = 2131165262;
+			
 			// aapt resource value: 0x7f07004a
 			public const int error_field_required = 2131165258;
 			
@@ -3728,6 +3740,9 @@ namespace MyDemoSP
 			
 			// aapt resource value: 0x7f070042
 			public const int title_activity_login = 2131165250;
+			
+			// aapt resource value: 0x7f07004c
+			public const int title_activity_splash_screen = 2131165260;
 			
 			// aapt resource value: 0x7f070040
 			public const int title_dashboard = 2131165248;

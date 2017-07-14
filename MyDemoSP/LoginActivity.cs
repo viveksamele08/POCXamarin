@@ -28,7 +28,7 @@ namespace MyDemoSP
         {
             EditText userName = FindViewById<EditText>(Resource.Id.email);
             EditText passWord = FindViewById<EditText>(Resource.Id.password);
-            if ((("Demo").Equals(userName.Text.Trim())) && (("Demo").Equals(passWord.Text.Trim())))
+           // if ((("Demo").Equals(userName.Text.Trim())) && (("Demo").Equals(passWord.Text.Trim())))
             {
                 StartActivity(new Intent(Application.Context, typeof(MainActivity)));
                 Finish();

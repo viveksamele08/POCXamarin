@@ -37,8 +37,7 @@ namespace MyDemoSP
         async void SimulateStartup()
         {
 
-            await Task.Delay(8000); // Simulate a bit of startup work.
-
+            await Task.Delay(80); // Simulate a bit of startup work.
             StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
             Finish();
         }

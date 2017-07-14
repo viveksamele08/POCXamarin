@@ -34,6 +34,7 @@ namespace MyDemoSP
             {
                 case Resource.Id.exam_results:
                     var intent = new Intent(this.Activity, typeof(CCCWebView));
+                    intent.PutExtra("key","library");
                     StartActivity(intent);
                     break;
                 case Resource.Id.library:

@@ -13,7 +13,7 @@ using Android.Support.V7.App;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "LoginActivity", Theme = "@style/FullscreenTheme", Icon = "@drawable/icon")]
+    [Activity(Label = "", Theme = "@style/FullscreenTheme", Icon = "@drawable/icon")]
     public class LoginActivity : AppCompatActivity
     {
         private Button _loginButton;
@@ -28,7 +28,7 @@ namespace MyDemoSP
         {
             EditText userName = FindViewById<EditText>(Resource.Id.email);
             EditText passWord = FindViewById<EditText>(Resource.Id.password);
-           // if ((("Demo").Equals(userName.Text.Trim())) && (("Demo").Equals(passWord.Text.Trim())))
+            if ((("Demo").Equals(userName.Text.Trim())) && (("Demo").Equals(passWord.Text.Trim())))
             {
                 StartActivity(new Intent(Application.Context, typeof(MainActivity)));
                 Finish();

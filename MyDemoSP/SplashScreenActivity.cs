@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace MyDemoSP
 {
-    [Activity(Label = "SplashScreenActivity", Theme = "@style/FullscreenTheme", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "", Theme = "@style/FullscreenTheme", MainLauncher = true, Icon = "@drawable/app_icon")]
     public class SplashScreenActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -37,7 +37,7 @@ namespace MyDemoSP
         async void SimulateStartup()
         {
 
-            await Task.Delay(80); // Simulate a bit of startup work.
+            await Task.Delay(4000); // Simulate a bit of startup work.
             StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
             Finish();
         }

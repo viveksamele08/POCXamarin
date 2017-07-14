@@ -28,19 +28,21 @@ namespace MyDemoSP.Service
         }
         void SendNotification(string messageBody)
         {
-            var intent = new Intent(this, typeof(MainActivity));
+
+            var intent = new Intent(this, typeof(CCCWebView));
             intent.AddFlags(ActivityFlags.ClearTop);
+            intent.PutExtra("key", messageBody);
             var pendingIntent = PendingIntent.GetActivity(this, 0, intent, PendingIntentFlags.OneShot);
 
             var notificationBuilder = new Notification.Builder(this)
-                .SetSmallIcon(Resource.Drawable.Icon)
+                .SetSmallIcon(Resource.Drawable.ic_stat_sp)
                 .SetContentTitle("Singapore Polytechnic")
-                .SetContentText(messageBody)
+                .SetContentText("")
                 .SetAutoCancel(true)
                 .SetContentIntent(pendingIntent);
 
             var notificationManager = NotificationManager.FromContext(this);
-            notificationManager.Notify(0, notificationBuilder.Build());
+             notificationManager.Notify(0, notificationBuilder.Build());
         }
     }
 }

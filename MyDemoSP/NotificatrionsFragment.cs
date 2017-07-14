@@ -29,18 +29,13 @@ namespace MyDemoSP
             }
         }
 
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
-        }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
             View view = inflater.Inflate(Resource.Layout.fragment_notificatrions, container, false);
             refresh = view.FindViewById<ImageView>(Resource.Id.refresh);
+            refresh.SetOnClickListener(this);
             return view;
         }
     }
